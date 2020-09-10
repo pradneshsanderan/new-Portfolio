@@ -5,7 +5,7 @@ import Home from './components/index';
 function App() {
   return (
     <div>
-      <Home />
+      <h2>wassup</h2>
     </div>
   );
 }
