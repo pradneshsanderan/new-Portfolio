@@ -32,7 +32,7 @@ const menuItems = [
     },
     {
         listIcon: <AssignmentInd />,
-        listText: "Resume"
+        listText: "Resume" 
     },
     {
         listIcon: <Apps />,
