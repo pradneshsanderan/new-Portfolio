@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
         [theme.breakpoints.up("md")]: {
             padding: "2rem",
             "&:before": {
-                left: "calc(50% -1px)",
+                left: "calc(50%)",
                 right: "auto"
             }
         }
