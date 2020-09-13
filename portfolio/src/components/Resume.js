@@ -98,6 +98,11 @@ const useStyles = makeStyles(theme => ({
         color : "tomato",
         padding: "3rem 0",
         textTransform: "uppercase"
+    },
+    subHeading:{
+        color:"white",
+        padding:"0",
+        textTransform: "uppercase"
     }
 }));
 
@@ -114,14 +119,14 @@ const Resume = () => {
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2013
                 </Typography>
-                    <Box component="div">
-                        <Typography variant="h5" align="center">
+                    <Box component="div"className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading} >
+                        HighSchool  
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{color:"tomato"}}>
                             MBSSKL
                         </Typography>
-                        <Typography variant="body1" align="center">
-                            HighSchool
-                        </Typography>
-                        <Typography variant="subtitle" align="center">
+                        <Typography variant="subtitle" align="center" style={{color:"tan"}}>
                             7 A+ 2 A 1 B+
                         </Typography>
                     </Box>
