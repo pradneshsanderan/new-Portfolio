@@ -93,6 +93,11 @@ const useStyles = makeStyles(theme => ({
                 display: "none"
             }
         }
+    },
+    heading:{
+        color : "tomato",
+        padding: "3rem 0",
+        textTransform: "uppercase"
     }
 }));
 
@@ -102,14 +107,24 @@ const Resume = () => {
         <>
             <Navbar />
             <Box component="header" className={classes.mainContainer}>
-                <Typography variant="h4" align="center">
+                <Typography variant="h4" align="center" className={classes.heading}>
                     Education
             </Typography>
                 <Box component="div" className={classes.timeLine}>
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2013
                 </Typography>
-
+                    <Box component="div">
+                        <Typography variant="h5" align="center">
+                            MBSSKL
+                        </Typography>
+                        <Typography variant="body1" align="center">
+                            HighSchool
+                        </Typography>
+                        <Typography variant="subtitle" align="center">
+                            7 A+ 2 A 1 B+
+                        </Typography>
+                    </Box>
                 </Box>
             </Box>
         </>
