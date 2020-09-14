@@ -114,7 +114,7 @@ const Resume = () => {
             <Box component="header" className={classes.mainContainer}>
                 <Typography variant="h4" align="center" className={classes.heading}>
                     Education
-            </Typography>
+                </Typography>
                 <Box component="div" className={classes.timeLine}>
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2013
@@ -130,15 +130,13 @@ const Resume = () => {
                             7 A+ 2 A 1 B+
                         </Typography>
                     </Box>
-                </Box>
 
-                <Box component="div" className={classes.timeLine}>
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2018
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading} >
-                            HighSchool
+                            college
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                             MBSSKL
@@ -147,15 +145,13 @@ const Resume = () => {
                             7 A+ 2 A 1 B+
                         </Typography>
                     </Box>
-                </Box>
 
-                <Box component="div" className={classes.timeLine}>
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2019
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading} >
-                            HighSchool
+                            University
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                             MBSSKL
@@ -164,8 +160,9 @@ const Resume = () => {
                             7 A+ 2 A 1 B+
                         </Typography>
                     </Box>
-                </Box>
 
+
+                </Box>
             </Box>
         </>
     );
