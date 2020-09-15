@@ -5,6 +5,7 @@ import Home from './components/index';
 import Resume from  './components/Resume';
 import {Route} from 'react-router-dom';
 import Portfolio from './components/Portfolio';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route exact path="/" component={Home}/>
       <Route path="/resume" component={Resume}/>
       <Route path="/projects" component={Portfolio} />
+      <Route path="/contacts" component={Contacts} />
     </div>
 
   );
