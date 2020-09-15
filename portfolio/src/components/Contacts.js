@@ -24,6 +24,9 @@ const InputField = withStyles({
                 borderColor: "tan",
 
             },
+            "&.Mui-focused fieldset" :{
+                borderColor:"tan",
+            }
         }
     },
 })(TextField);
@@ -38,13 +41,12 @@ const Contacts = () => {
                     <Typography variant="h5">
                          Contact me
                     </Typography>
-                    <InputField 
-                    fullWidth={true}
-                    label="Name"
-                    variant="outlined"
-                    
-                    
-                    />
+                    <InputField fullWidth={true}label="Name"variant="outlined" margin="dense" size="medium" inputProps={{style:{color:"white"}}}/>
+                    <br />
+                    <InputField fullWidth={true}label="Email"variant="outlined"/>
+                    <br />
+                    <InputField fullWidth={true}label="Message"variant="outlined"/>
+
                 </Box>
             </Grid>
         </Box>
