@@ -43,9 +43,13 @@ const Contacts = () => {
                     </Typography>
                     <InputField fullWidth={true}label="Name"variant="outlined" margin="dense" size="medium" inputProps={{style:{color:"white"}}}/>
                     <br />
-                    <InputField fullWidth={true}label="Email"variant="outlined"/>
+                    <InputField fullWidth={true}label="Email"variant="outlined" margin="dense" size="medium" inputProps={{style:{color:"white"}}}/>
                     <br />
-                    <InputField fullWidth={true}label="Message"variant="outlined"/>
+                    <InputField fullWidth={true}label="Message"variant="outlined" margin="dense" size="large" inputProps={{style:{color:"white"}}}/>
+                    <br/>
+                    <Button variant="outlined" fullWidth={true} endIcon={<SendIcon />}>
+                        Contact Me
+                    </Button>
 
                 </Box>
             </Grid>
