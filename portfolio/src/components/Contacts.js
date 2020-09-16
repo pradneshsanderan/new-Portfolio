@@ -49,10 +49,10 @@ const InputField = withStyles({
 const Contacts = () => {
     const classes = useStyles();
     return (
-        <Box component="div">
+        <Box component="div" style={{background :"#233", height:"100vh"}}>
             <Grid container justify="center">
                 <Box component="form" className={classes.form}>
-                    <Typography variant="h5">
+                    <Typography variant="h5" style={{color:"tomato", textAlign: "center", textTransform: "uppercase"}}>
                          Contact me
                     </Typography>
                     <InputField fullWidth={true}label="Name"variant="outlined" margin="dense" size="medium" inputProps={{style:{color:"white"}}}/>
