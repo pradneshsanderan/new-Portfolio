@@ -5,9 +5,9 @@ import avatar from '../assets/cartoon1.png';
 import { makeStyles } from '@material-ui/core/styles';
 import {Link} from 'react-router-dom';
 import MobilRightMenuSlider from '@material-ui/core/Drawer';
+//code for the navbar on each component and in the home
 
-
-//CSS Styles
+//CSS Styles for the container and avatar
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
         width: 250,
@@ -26,6 +26,8 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
+
+//list of route links in the side drawer with icon, text and path
 const menuItems = [
     {
         listIcon: <Home />,
@@ -49,7 +51,7 @@ const menuItems = [
     },
 ]
 
-
+//main jsx for the nabar
 const Navbar = () => {
     const [right, setRight] = useState(false);
     const toggleSlider = (open) => {

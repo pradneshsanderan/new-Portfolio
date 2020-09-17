@@ -2,9 +2,9 @@ import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Box } from '@material-ui/core';
 import Navbar from './Navbar';
+//code for the resume (education for now)
 
-
-
+//CSS for the container, time line and items and text
 const useStyles = makeStyles(theme => ({
     mainContainer: {
         background: "#233"
@@ -105,6 +105,9 @@ const useStyles = makeStyles(theme => ({
         textTransform: "uppercase"
     }
 }));
+
+
+//main jsx for the resume comp
 
 const Resume = () => {
     const classes = useStyles();
