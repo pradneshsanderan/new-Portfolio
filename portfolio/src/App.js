@@ -6,7 +6,11 @@ import Resume from  './components/Resume';
 import {Route} from 'react-router-dom';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts';
+//main frame of the web app
 
+
+
+//routes to each component
 function App() {
   return (
     <div>

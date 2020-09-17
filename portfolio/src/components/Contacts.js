@@ -4,7 +4,12 @@ import { TextField, Typography, Button, Grid, Box } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
 import Navbar from './Navbar';
 import { Translate } from '@material-ui/icons';
+/* code for the contacts component */
 
+
+
+
+//CSS for the header and submit button
 const useStyles = makeStyles(theme =>({
     form:{
         top:"50%",
@@ -19,6 +24,8 @@ const useStyles = makeStyles(theme =>({
     }
 }))
 
+
+//CSS for the input field for the contacts
 const InputField = withStyles({
     root:{
         "& label.Mui-focused" :{
@@ -45,7 +52,7 @@ const InputField = withStyles({
 })(TextField);
 
 
-
+//main jsx
 const Contacts = () => {
     const classes = useStyles();
     return (
