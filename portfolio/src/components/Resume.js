@@ -131,9 +131,13 @@ const Resume = () => {
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
                             School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM) )
-                            Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics,
+                        </Typography>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics,
                             Physics, Chemistry, Biology, Histroy, Moral Studies, Litereature In English
-                            Results: 7A+ 2A 1B+
+                        </Typography>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        Results: 7A+ 2A 1B+
                         </Typography>
                     </Box>
 
@@ -149,12 +153,14 @@ const Resume = () => {
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
                            A-Levels
-                          
-                           Results: 4A
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
                         Subjects Taken: Mathematics, Further Mathematics, Physics, Chemistry
                         </Typography>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        Results: 4A
+                        </Typography>
+                        
                     </Box>
 
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
