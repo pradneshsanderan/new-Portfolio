@@ -127,10 +127,13 @@ const Resume = () => {
                             HighSchool
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            MBSSKL
+                            Methodist Boys' Secondary School Kuala Lumpur
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                            7 A+ 2 A 1 B+
+                            School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM) )
+                            Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics,
+                            Physics, Chemistry, Biology, Histroy, Moral Studies, Litereature In English
+                            Results: 7A+ 2A 1B+
                         </Typography>
                     </Box>
 
@@ -139,13 +142,18 @@ const Resume = () => {
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading} >
-                            college
+                            College / Sixt Form / Pre-University
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            MBSSKL
+                            Help Academy
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                            7 A+ 2 A 1 B+
+                           A-Levels
+                          
+                           Results: 4A
+                        </Typography>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        Subjects Taken: Mathematics, Further Mathematics, Physics, Chemistry
                         </Typography>
                     </Box>
 
@@ -157,10 +165,10 @@ const Resume = () => {
                             University
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            MBSSKL
+                            The University of Edinburgh
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                            7 A+ 2 A 1 B+
+                           BSc Computer Science
                         </Typography>
                     </Box>
 
