@@ -3,6 +3,7 @@ import { AppBar, Toolbar, ListItem, ListItemIcon, IconButton, ListItemText, Avat
 import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import avatar from '../assets/cartoon1.png';
 import { makeStyles } from '@material-ui/core/styles';
+import Footer from './Footer';
 import {Link} from 'react-router-dom';
 import MobilRightMenuSlider from '@material-ui/core/Drawer';
 //code for the navbar on each component and in the home
@@ -89,6 +90,7 @@ const Navbar = () => {
                     </Toolbar>
                     <MobilRightMenuSlider open={right} onClose={() => toggleSlider(false)}>
                         {sideList("right")}
+                        <Footer />
                     </MobilRightMenuSlider>
                 </AppBar>
 
