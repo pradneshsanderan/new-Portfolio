@@ -1,15 +1,22 @@
 import React from 'react'
-import { withStyles } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core';
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 import Facebook from '@material-ui/icons/Facebook';
 import Twitter from '@material-ui/icons/Twitter';
 import Instagram from '@material-ui/icons/Instagram';
 
-const useStyles= withStyles({
+const useStyles= makeStyles({
     root:{
         "& .MuiBottomNavigationAction-root":{
             minWidth:0,
             maxWidth:250,
+        },
+        "& .MuiSvgIcon-root":{
+            fill:"tan",
+            "&:hover" : {
+                fill: "tomato",
+                fonstSize:"1.8rem"
+            }
         }
     }
 })
