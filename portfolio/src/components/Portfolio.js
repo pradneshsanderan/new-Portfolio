@@ -35,7 +35,7 @@ const Portfolio = () => {
 
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Project 1
+                                    inSight
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
@@ -66,7 +66,7 @@ const Portfolio = () => {
 
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Project 2
+                                    TextBook Study assistant
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
@@ -97,7 +97,100 @@ const Portfolio = () => {
 
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Project 3
+                                   Sudoku Solver
+                                </Typography>
+
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    something
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+                            <Button size="small" color="primary">
+                                Code
+                                </Button>
+                            <Button size="small" color="primary">
+                                Live Demo
+                                </Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+
+                {/*Project 4 */}
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="Project 2"
+                                height="140"
+                                image={project2} />
+
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Fox and the Hound Game
+                                </Typography>
+
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    something
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+                            <Button size="small" color="primary">
+                                Code
+                                </Button>
+                            <Button size="small" color="primary">
+                                Live Demo
+                                </Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+
+                {/*Project 5 */}
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="Project 2"
+                                height="140"
+                                image={project2} />
+
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Covid-19 tracker
+                                </Typography>
+
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    something
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+                            <Button size="small" color="primary">
+                                Code
+                                </Button>
+                            <Button size="small" color="primary">
+                                Live Demo
+                                </Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+
+                {/*Project 2 */}
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="Project 2"
+                                height="140"
+                                image={project2} />
+
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Recipe Finder
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
