@@ -39,7 +39,8 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    something
+                                An application that  curates the most sustainable recreational activities that tourists can get in their vicinity, considering the weather conditions!
+                 We aim to make this the only app tourists will ever need.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -70,7 +71,8 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    something
+                                A Study Assistant that scans an image for words related to a subject and then searches the web for information and materials related
+                to that word.The text is then returned and synthesised to audio.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -101,7 +103,7 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    something
+                                A Program that is able to solve sudoku puzzles that have been input
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -132,7 +134,8 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    something
+                                porgram that allows you to play the fox and the hound game with another.
+                    (code available upon request)
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -163,7 +166,8 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    something
+                                    A Web App Built with React that shows users the Statistics for Covid-19 globally and for each country. 
+                                    The statistics include the total number of deaths, infected people and people recovered.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -194,7 +198,7 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    something
+                                    A Web App bulit with React that allows users to search for a recipe by typing a keyword or ingredient in the search bar.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
