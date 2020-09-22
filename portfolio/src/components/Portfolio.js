@@ -39,15 +39,17 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                An application that  curates the most sustainable recreational activities that tourists can get in their vicinity, considering the weather conditions!
-                 We aim to make this the only app tourists will ever need.
+                                    An application that  curates the most sustainable recreational activities that tourists can get in their vicinity, considering the weather conditions!
+                                    We aim to make this the only app tourists will ever need.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">
-                                Code
+                            <a href="https://github.com/Steven-Chang1114/inSight" rel="noopener noreferer" target="_blank">
+                                <Button size="small" color="primary">
+                                    Code
                                 </Button>
+                            </a>
                             <Button size="small" color="primary">
                                 Live Demo
                                 </Button>
@@ -71,8 +73,8 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                A Study Assistant that scans an image for words related to a subject and then searches the web for information and materials related
-                to that word.The text is then returned and synthesised to audio.
+                                    A Study Assistant that scans an image for words related to a subject and then searches the web for information and materials related
+                                    to that word.The text is then returned and synthesised to audio.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -99,11 +101,11 @@ const Portfolio = () => {
 
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                   Sudoku Solver
+                                    Sudoku Solver
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                A Program that is able to solve sudoku puzzles that have been input
+                                    A Program that is able to solve sudoku puzzles that have been input
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -134,8 +136,8 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                porgram that allows you to play the fox and the hound game with another.
-                    (code available upon request)
+                                    porgram that allows you to play the fox and the hound game with another.
+                                    (code available upon request)
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -166,7 +168,7 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    A Web App Built with React that shows users the Statistics for Covid-19 globally and for each country. 
+                                    A Web App Built with React that shows users the Statistics for Covid-19 globally and for each country.
                                     The statistics include the total number of deaths, infected people and people recovered.
                                 </Typography>
                             </CardContent>

@@ -35,18 +35,15 @@ const Footer = () => {
             <BottomNavigationAction
                 className={classes.root}
                 style={{ padding: 0 }}
-                icon={<CodeIcon />} />
-
-            <BottomNavigationAction
-                className={classes.root}
-                style={{ padding: 0 }}
                 icon={<LinkedInIcon />} />
 
-            <BottomNavigationAction
-                className={classes.root}
-                style={{ padding: 0 }}
-                icon={<DescriptionIcon />} />
-            <a href={Resume} class="btn-rounded-white" rel="noopener noreferer" target="_blank"></a>
+
+            <a href={Resume} class="btn-rounded-white" rel="noopener noreferer" target="_blank">
+                <BottomNavigationAction
+                    className={classes.root}
+                    style={{ padding: 0 }}
+                    icon={<DescriptionIcon />} />
+            </a>
 
         </BottomNavigation>
     );
