@@ -27,21 +27,26 @@ const Footer = () => {
     const classes = useStyles()
     return (
         <BottomNavigation width="auto" style={{ background: '#222' }}>
-            <BottomNavigationAction
-                className={classes.root}
-                style={{ padding: 0 }}
-                icon={<GitHubIcon />} />
+            <a href="https://github.com/pradneshsanderan" rel="noopener noreferer" target="_blank">
+                <BottomNavigationAction
+                    className={classes.root}
+                    style={{ padding: 17 }}
+                    icon={<GitHubIcon />} />
 
-            <BottomNavigationAction
-                className={classes.root}
-                style={{ padding: 0 }}
-                icon={<LinkedInIcon />} />
+            </a>
+
+            <a href="https://www.linkedin.com/in/pradnesh-sanderan-70b24b19a/" rel="noopener noreferer" target="_blank">
+                <BottomNavigationAction
+                    className={classes.root}
+                    style={{ padding: 17 }}
+                    icon={<LinkedInIcon />} />
+            </a>
 
 
             <a href={Resume} class="btn-rounded-white" rel="noopener noreferer" target="_blank">
                 <BottomNavigationAction
                     className={classes.root}
-                    style={{ padding: 0 }}
+                    style={{ padding: 17 }}
                     icon={<DescriptionIcon />} />
             </a>
 
