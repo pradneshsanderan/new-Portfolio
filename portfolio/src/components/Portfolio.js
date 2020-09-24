@@ -23,6 +23,8 @@ const Portfolio = () => {
         <Box component="div" className={classes.mainContainer}>
             <Navbar />
             <Grid container justify="center" >
+                
+                
                 {/*Project 1 */}
                 <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
@@ -148,9 +150,12 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">
+                        
+                        <Button size="small" color="primary">
                                 Code
                                 </Button>
+                    
+                            
                             <Button size="small" color="primary">
                                 Live Demo
                                 </Button>
@@ -180,9 +185,12 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">
+                        <a href="https://github.com/pradneshsanderan/Covid-19-tracker" rel="noopener noreferer" target="_blank">
+                        <Button size="small" color="primary">
                                 Code
                                 </Button>
+                        </a>
+                           
                             <Button size="small" color="primary">
                                 Live Demo
                                 </Button>
@@ -190,7 +198,7 @@ const Portfolio = () => {
                     </Card>
                 </Grid>
 
-                {/*Project 2 */}
+                {/*Project 6 */}
                 <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
                         <CardActionArea>
@@ -211,9 +219,12 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">
+                        <a href="https://github.com/pradneshsanderan/React-Recipe-App" rel="noopener noreferer" target="_blank">
+                        <Button size="small" color="primary">
                                 Code
                                 </Button>
+                        </a>
+                            
                             <Button size="small" color="primary">
                                 Live Demo
                                 </Button>
@@ -222,7 +233,7 @@ const Portfolio = () => {
                 </Grid>
 
 
-                {/*Project 2 */}
+                {/*Project 7 */}
                 <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
                         <CardActionArea>
@@ -256,7 +267,7 @@ const Portfolio = () => {
                     </Card>
                 </Grid>
 
-                {/*Project 2 */}
+                {/*Project 8 */}
                 <Grid item xs={12} sm={8} md={6}>
                     <Card className={classes.cardContainer}>
                         <CardActionArea>
@@ -272,12 +283,12 @@ const Portfolio = () => {
                                 </Typography>
 
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                program that allows 2 people to play a game of tic tac toe on and it displays who has won or if it is a tie
+                                    program that allows 2 people to play a game of tic tac toe on and it displays who has won or if it is a tie
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                        <a href = "https://github.com/pradneshsanderan/Tic-Tac-Toe-game" rel="noopener noreferer" target="_blank">
+                            <a href="https://github.com/pradneshsanderan/Tic-Tac-Toe-game" rel="noopener noreferer" target="_blank">
                                 <Button size="small" color="primary">
                                     Code
                                 </Button>
