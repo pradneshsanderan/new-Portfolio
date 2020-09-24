@@ -6,6 +6,7 @@ import Resume from  './components/Resume';
 import {Route} from 'react-router-dom';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts';
+import { Helmet } from 'react-helmet';
 //main frame of the web app
 
 
@@ -14,6 +15,12 @@ import Contacts from './components/Contacts';
 function App() {
   return (
     <div>
+       <Helmet>
+      <meta charSet="utf-8" />
+        <title>
+          Pradnesh Sanderan
+        </title>
+      </Helmet>
       <CssBaseline />
       <Route exact path="/" component={Home}/>
       <Route path="/resume" component={Resume}/>
