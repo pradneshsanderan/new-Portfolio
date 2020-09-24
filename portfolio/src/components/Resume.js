@@ -119,27 +119,23 @@ const Resume = () => {
                     Education
                 </Typography>
                 <Box component="div" className={classes.timeLine}>
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2013
+
+                <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2019
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading} >
-                            HighSchool
+                            University
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            Methodist Boys' Secondary School Kuala Lumpur
+                            The University of Edinburgh
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                            School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM) )
-                        </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                        Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics,
-                            Physics, Chemistry, Biology, Histroy, Moral Studies, Litereature In English
-                        </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                        Results: 7A+ 2A 1B+
+                           BSc Computer Science
                         </Typography>
                     </Box>
+
+                   
 
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2018
@@ -164,17 +160,24 @@ const Resume = () => {
                     </Box>
 
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2019
+                        2013
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading} >
-                            University
+                            HighSchool
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            The University of Edinburgh
+                            Methodist Boys' Secondary School Kuala Lumpur
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                           BSc Computer Science
+                            School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM) )
+                        </Typography>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics,
+                            Physics, Chemistry, Biology, Histroy, Moral Studies, Litereature In English
+                        </Typography>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        Results: 7A+ 2A 1B+
                         </Typography>
                     </Box>
 
