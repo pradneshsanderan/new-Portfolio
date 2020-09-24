@@ -79,9 +79,12 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">
-                                Code
+                            <a href="https://github.com/pradneshsanderan/Textbook-Study-Assistant" rel="noopener noreferer" target="_blank">
+                                <Button size="small" color="primary">
+                                    Code
                                 </Button>
+                            </a>
+
                             <Button size="small" color="primary">
                                 Live Demo
                                 </Button>
@@ -110,9 +113,12 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">
-                                Code
+                            <a href="https://github.com/pradneshsanderan/sudoku-solver" rel="noopener noreferer" target="_blank">
+                                <Button size="small" color="primary">
+                                    Code
                                 </Button>
+                            </a>
+
                             <Button size="small" color="primary">
                                 Live Demo
                                 </Button>
@@ -208,6 +214,75 @@ const Portfolio = () => {
                             <Button size="small" color="primary">
                                 Code
                                 </Button>
+                            <Button size="small" color="primary">
+                                Live Demo
+                                </Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+
+
+                {/*Project 2 */}
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="Project 2"
+                                height="140"
+                                image={project2} />
+
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    email administration app
+                                </Typography>
+
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    a program that creates email addresses for new employees in a company with randomly generated passwords
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+                            <a href="https://github.com/pradneshsanderan/email-administration-app" rel="noopener noreferer" target="_blank">
+                                <Button size="small" color="primary">
+                                    Code
+                                </Button>
+                            </a>
+
+                            <Button size="small" color="primary">
+                                Live Demo
+                                </Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+
+                {/*Project 2 */}
+                <Grid item xs={12} sm={8} md={6}>
+                    <Card className={classes.cardContainer}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="Project 2"
+                                height="140"
+                                image={project2} />
+
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Tic Tac Toe Game
+                                </Typography>
+
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                program that allows 2 people to play a game of tic tac toe on and it displays who has won or if it is a tie
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                        <CardActions>
+                        <a href = "https://github.com/pradneshsanderan/Tic-Tac-Toe-game" rel="noopener noreferer" target="_blank">
+                                <Button size="small" color="primary">
+                                    Code
+                                </Button>
+                            </a>
+
                             <Button size="small" color="primary">
                                 Live Demo
                                 </Button>

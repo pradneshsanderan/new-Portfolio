@@ -30,7 +30,7 @@ const Footer = () => {
             <a href="https://github.com/pradneshsanderan" rel="noopener noreferer" target="_blank">
                 <BottomNavigationAction
                     className={classes.root}
-                    style={{ padding: 17 }}
+                    style={{ padding: 17  }}
                     icon={<GitHubIcon />} />
 
             </a>
