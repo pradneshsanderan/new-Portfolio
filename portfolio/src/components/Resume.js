@@ -147,13 +147,14 @@ const Resume = () => {
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                             Help Academy
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                           A-Levels
+                        <Typography variant="subtitle" align="center" style={{ color: "tan",display: 'inline-block' }}>
+                           A-Levels 
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" , display: 'inline-block'}}>
                         Subjects Taken: Mathematics, Further Mathematics, Physics, Chemistry
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        <br/>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
                         Results: 4A
                         </Typography>
                         
@@ -169,14 +170,14 @@ const Resume = () => {
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                             Methodist Boys' Secondary School Kuala Lumpur
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
                             School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM) )
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                        Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics,
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
+                            Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics,
                             Physics, Chemistry, Biology, Histroy, Moral Studies, Litereature In English
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan",display: 'inline-block' }}>
                         Results: 7A+ 2A 1B+
                         </Typography>
                     </Box>
