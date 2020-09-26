@@ -153,7 +153,7 @@ const Resume = () => {
                         <Typography variant="subtitle" align="center" style={{ color: "tan" , display: 'inline-block'}}>
                         Subjects Taken: Mathematics, Further Mathematics, Physics, Chemistry
                         </Typography>
-                        <br/>
+                        
                         <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
                         Results: 4A
                         </Typography>
@@ -173,10 +173,46 @@ const Resume = () => {
                         <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
                             School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM) )
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
-                            Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics,
-                            Physics, Chemistry, Biology, Histroy, Moral Studies, Litereature In English
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" , display: 'inline-block'}}>
+                            Subjects Taken: English,  
                         </Typography>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" , display: 'inline-block'}}>
+                        Malay Language,
+                        </Typography>
+
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" , display: 'inline-block'}}>
+                        Mathematics,
+                        </Typography>
+
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
+                        Additional Mathematics,
+                        </Typography>
+
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
+                        Physics,
+                        </Typography>
+
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
+                        Chemistry,
+                        </Typography>
+
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
+                        Biology,
+                        </Typography>
+
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
+                        Histroy,
+                        </Typography>
+
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
+                        Moral Studies,
+                        </Typography>
+
+                        
+                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
+                        Litereature In English
+                        </Typography>
+
                         <Typography variant="subtitle" align="center" style={{ color: "tan",display: 'inline-block' }}>
                         Results: 7A+ 2A 1B+
                         </Typography>
