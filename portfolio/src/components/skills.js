@@ -9,14 +9,22 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
- const Skills = () => {
+const Skills = () => {
     return (
         <>
-        <Navbar />
-        <Box component="header" className={classes.mainContainer}>
+            <Navbar />
+            <Box component="header" className={classes.mainContainer}>
+                <Box>
+<h1>
+    Experience
+</h1>
+<h2>
+    skills
+    
+</h2>
+                </Box>
+            </Box>
 
-        </Box>
-            
         </>
     )
 }
