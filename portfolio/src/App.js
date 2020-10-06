@@ -7,6 +7,7 @@ import {Route} from 'react-router-dom';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts';
 import { Helmet } from 'react-helmet';
+import Skills from './components/skills';
 //main frame of the web app
 
 
@@ -26,6 +27,7 @@ function App() {
       <Route path="/resume" component={Resume}/>
       <Route path="/projects" component={Portfolio} />
       <Route path="/contacts" component={Contacts} />
+      <Route path="/skills" component={Skills} />
     </div>
 
   );
