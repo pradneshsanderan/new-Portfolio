@@ -15,13 +15,18 @@ const Skills = () => {
             <Navbar />
             <Box component="header" className={classes.mainContainer}>
                 <Box>
-<h1>
-    Experience
-</h1>
-<h2>
-    skills
-    
-</h2>
+                    <h1>
+                        Experience
+                    </h1>
+                    <h2>
+                        skills
+                    </h2>
+                    <h2>
+                        languages
+                    </h2>
+                    <h2>
+                        
+                    </h2>
                 </Box>
             </Box>
 
