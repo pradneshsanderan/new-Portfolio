@@ -119,8 +119,7 @@ const Resume = () => {
                     Education
                 </Typography>
                 <Box component="div" className={classes.timeLine}>
-
-                <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2019
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
@@ -131,11 +130,11 @@ const Resume = () => {
                             The University of Edinburgh
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                           BSc Computer Science
+                            BSc Computer Science
                         </Typography>
                     </Box>
 
-                   
+
 
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                         2018
@@ -147,17 +146,18 @@ const Resume = () => {
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                             Help Academy
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan",display: 'inline-block' }}>
-                           A-Levels 
-                        </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" , display: 'inline-block'}}>
-                        Subjects Taken: Mathematics, Further Mathematics, Physics, Chemistry
-                        </Typography>
-                        
                         <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
-                        Results: 4A
+                            A-Levels
                         </Typography>
-                        
+                        <br />
+                        <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
+                            Subjects Taken: Mathematics, Further Mathematics, Physics, Chemistry
+                        </Typography>
+                        <br />
+                        <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
+                            Results: 4A
+                        </Typography>
+
                     </Box>
 
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -170,51 +170,19 @@ const Resume = () => {
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                             Methodist Boys' Secondary School Kuala Lumpur
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
+                        <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
                             School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM) )
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" , display: 'inline-block'}}>
-                            Subjects Taken: English,  
+                        <br />
+                        <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
+                            Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics, Physics, Chemistry,
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" , display: 'inline-block'}}>
-                        Malay Language,
+                        <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
+                            {'  '}Biology, Histroy, Moral Studies, Litereature In English
                         </Typography>
-
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" , display: 'inline-block'}}>
-                        Mathematics,
-                        </Typography>
-
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
-                        Additional Mathematics,
-                        </Typography>
-
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
-                        Physics,
-                        </Typography>
-
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
-                        Chemistry,
-                        </Typography>
-
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
-                        Biology,
-                        </Typography>
-
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
-                        Histroy,
-                        </Typography>
-
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
-                        Moral Studies,
-                        </Typography>
-
-                        
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" ,display: 'inline-block'}}>
-                        Litereature In English
-                        </Typography>
-
-                        <Typography variant="subtitle" align="center" style={{ color: "tan",display: 'inline-block' }}>
-                        Results: 7A+ 2A 1B+
+                        <br />
+                        <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
+                            Results: 7A+ 2A 1B+
                         </Typography>
                     </Box>
 

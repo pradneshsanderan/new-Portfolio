@@ -24,7 +24,7 @@ function App() {
       </Helmet>
       <CssBaseline />
       <Route exact path="/" component={Home}/>
-      <Route path="/resume" component={Resume}/>
+      <Route path="/education" component={Resume}/>
       <Route path="/projects" component={Portfolio} />
       <Route path="/contacts" component={Contacts} />
       <Route path="/skills" component={Skills} />
