@@ -10,6 +10,7 @@ const useStyles = makeStyles(theme => ({
 
 
 const Skills = () => {
+    const classes = useStyles();
     return (
         <>
             <Navbar />
