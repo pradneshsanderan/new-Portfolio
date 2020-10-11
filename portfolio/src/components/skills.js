@@ -25,28 +25,34 @@ const Skills = () => {
                     <h3>
                         Languages
                     </h3>
-                    <ol>
+                    <ul>
                         Java
                         Python
                         C
                         Haskell
                         HTML/CSS
-                    </ol>
+                    </ul>
                     <h3>Frameworks</h3>
-                    <ol>
+                    <ul>
                         ReactJs
                         React Native
                         Android Studio
+
+                    </ul>
+                    <h3>others</h3>
+                    <ul>
+                        Git
                         
-                    </ol>
+                    </ul>
+
                     <h2>
                         languages
                     </h2>
-                    <ol>
+                    <ul>
                         English
                         Malay
                         Tamil
-                    </ol>
+                    </ul>
                     <h2>
                         
                     </h2>
