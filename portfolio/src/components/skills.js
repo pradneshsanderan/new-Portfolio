@@ -32,6 +32,13 @@ const Skills = () => {
                         Haskell
                         HTML/CSS
                     </ol>
+                    <h3>Frameworks</h3>
+                    <ol>
+                        ReactJs
+                        React Native
+                        Android Studio
+                        
+                    </ol>
                     <h2>
                         languages
                     </h2>
