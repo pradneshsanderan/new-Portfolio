@@ -20,11 +20,26 @@ const Skills = () => {
                         Experience
                     </h1>
                     <h2>
-                        skills
+                        Technical skills
                     </h2>
+                    <h3>
+                        Languages
+                    </h3>
+                    <ol>
+                        Java
+                        Python
+                        C
+                        Haskell
+                        HTML/CSS
+                    </ol>
                     <h2>
                         languages
                     </h2>
+                    <ol>
+                        English
+                        Malay
+                        Tamil
+                    </ol>
                     <h2>
                         
                     </h2>
