@@ -178,7 +178,7 @@ const Resume = () => {
                             Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics, Physics, Chemistry,
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
-                            {'  '}Biology, Histroy, Moral Studies, Litereature In English
+                            Biology, Histroy, Moral Studies, Litereature In English
                         </Typography>
                         <br />
                         <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
