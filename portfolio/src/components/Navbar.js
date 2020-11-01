@@ -47,15 +47,16 @@ const menuItems = [
         listPath: "/projects"
     },
     {
-        listIcon: <ContactMail />,
-        listText: "Contact",
-        listPath: "/contacts"
-    },
-    {
         listIcon: <AssignmentInd />,
         listText: "Skills",
         listPath: "/skills"
     },
+    {
+        listIcon: <ContactMail />,
+        listText: "Contact",
+        listPath: "/contacts"
+    },
+  
 ]
 
 //main jsx for the nabar

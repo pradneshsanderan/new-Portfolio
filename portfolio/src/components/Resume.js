@@ -172,17 +172,23 @@ const Resume = () => {
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
                             School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM) )
-                        </Typography>
-                        <br />
-                        <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
+                            <br />
                             Subjects Taken: English, Malay Language, Mathematics, Additional Mathematics, Physics, Chemistry,
+                            <br />
+                            Biology, Histroy, Moral Studies, Litereature In English
+                            <br/>
+                            Results: 7A+ 2A 1B+
+                        </Typography>
+                       
+                        <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
+                            
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
-                            Biology, Histroy, Moral Studies, Litereature In English
+                          
                         </Typography>
                         <br />
                         <Typography variant="subtitle" align="center" style={{ color: "tan", display: 'inline-block' }}>
-                            Results: 7A+ 2A 1B+
+                            
                         </Typography>
                     </Box>
 
