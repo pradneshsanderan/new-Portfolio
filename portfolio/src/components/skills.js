@@ -42,6 +42,9 @@ const Skills = () => {
                     <h3>others</h3>
                     <ul>
                         Git
+                        Adobe suite
+                        Microsoft Office Suite
+                        Lego Mindstorms Robotics
                         
                     </ul>
 
