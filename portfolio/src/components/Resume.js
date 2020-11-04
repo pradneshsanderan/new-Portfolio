@@ -187,18 +187,18 @@ const Resume = () => {
 
             <Box component="header" className={classes.mainContainer}>
                 <Typography variant="h4" align="center" className={classes.heading}>
-                    Education
+                    Experience
                 </Typography>
                 <Box component="div" className={classes.timeLine}>
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2019
+                        2020
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading} >
-                            University
+                            The University of Edinburgh
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            The University of Edinburgh
+                           Tutor
                         </Typography>
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
                             BSc Computer Science
@@ -212,10 +212,10 @@ const Resume = () => {
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading} >
-                            College / Sixt Form / Pre-University
+                           Rumah Hope CHildrens Home
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            Help Academy
+                           Volunteer Teacher
                         </Typography>
                         <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
                             A-Levels
@@ -230,14 +230,14 @@ const Resume = () => {
                     </Box>
 
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2013
+                        2016
                     </Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading} >
-                            HighSchool
+                            SPCA Kajang
                         </Typography>
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            Methodist Boys' Secondary School Kuala Lumpur
+                            Volunteer
                         </Typography>
                         <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
                             School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM))
@@ -251,6 +251,30 @@ const Resume = () => {
                             Results: 7A+ 2A 1B+
                         </Typography>
                     </Box>
+
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                        2013
+                    </Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                        <Typography variant="h5" align="center" className={classes.subHeading} >
+                            Soup Kitchen
+                        </Typography>
+                        <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+                           Co-Founder and Volunteer
+                        </Typography>
+                        <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
+                            School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM))
+                            <br/>
+                            <br/>
+                            Subjects Taken: English, Malay Language, Mathematics, Additional 
+                            <br />
+                            Mathematics, Physics, Chemistry,Biology, Histroy, Moral Studies, Litereature In English
+                            <br/>
+                            <br/>
+                            Results: 7A+ 2A 1B+
+                        </Typography>
+                    </Box>
+
 
 
                 </Box>

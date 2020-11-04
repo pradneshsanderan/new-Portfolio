@@ -31,7 +31,7 @@ class Skills extends Component{
                 <p>To obtain a full time software development position after graduation</p>
                 <h5>email</h5>
                 <p>pradneshsanderan@gmail.com</p>
-                <a  class="btn-rounded-white" rel="noopener noreferer" target="_blank">
+                <a href={ResumeD} class="btn-rounded-white" rel="noopener noreferer" target="_blank">
                 <Button variant="outline-dark">View Resume</Button>
                 </a>
                 <hr style={{borderTop:'3px solid #833fb2',width: '50%'}}/>
