@@ -5,3 +5,8 @@ body {
   -o-background: cover;
   background: cover;
 }
+
+.resume-right-col{
+  background:#233;
+  color: white;
+}
