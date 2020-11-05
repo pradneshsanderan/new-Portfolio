@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Box } from '@material-ui/core';
+import {Grid, Cell , Button} from 'react-mdl';
 import Navbar from './Navbar';
 //code for the resume (education for now)
 
@@ -103,7 +104,17 @@ const useStyles = makeStyles(theme => ({
         color: "white",
         padding: "0",
         textTransform: "uppercase"
-    }
+    },
+    splitScreen: {
+        display: 'flex',
+        flexDirection: 'row'
+    },
+    topPane: {
+        width: '50%',
+    },
+    bottomPane: {
+        width: '50%',
+    },
 }));
 
 
@@ -114,78 +125,81 @@ const Resume = () => {
     return (
         <>
             <Navbar />
-            <Box component="header" className={classes.mainContainer}>
-                <Typography variant="h4" align="center" className={classes.heading}>
-                    Education
-                </Typography>
-                <Box component="div" className={classes.timeLine}>
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2019
+            <div className={classes.splitScreen}>
+                    <div className={classes.topPane}>
+                    <Box component="header" className={classes.mainContainer}>
+                    <Typography variant="h4" align="center" className={classes.heading}>
+                        Education
                     </Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading} >
-                            University
+                    <Box component="div" className={classes.timeLine}>
+                        <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                            2019
                         </Typography>
-                        <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            The University of Edinburgh
+                        <Box component="div" className={classes.timeLineItem}>
+                            <Typography variant="h5" align="center" className={classes.subHeading} >
+                                University
+                            </Typography>
+                            <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+                                The University of Edinburgh
+                            </Typography>
+                            <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
+                                BSc Computer Science
+                            </Typography>
+                        </Box>
+
+
+
+                        <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                            2018
                         </Typography>
-                        <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                            BSc Computer Science
+                        <Box component="div" className={classes.timeLineItem}>
+                            <Typography variant="h5" align="center" className={classes.subHeading} >
+                                College / Sixt Form / Pre-University
+                            </Typography>
+                            <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+                                Help Academy
+                            </Typography>
+                            <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
+                                A-Levels
+                                <br/>
+                                <br/>
+                                Subjects Taken: Mathematics, Further Mathematics, Physics, Chemistry
+                                <br/>
+                                <br/>
+                                Results: 4A
+                            </Typography>
+
+                        </Box>
+
+                        <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                            2013
                         </Typography>
+                        <Box component="div" className={classes.timeLineItem}>
+                            <Typography variant="h5" align="center" className={classes.subHeading} >
+                                HighSchool
+                            </Typography>
+                            <Typography variant="body1" align="center" style={{ color: "tomato" }}>
+                                Methodist Boys' Secondary School Kuala Lumpur
+                            </Typography>
+                            <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
+                                School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM))
+                                <br/>
+                                <br/>
+                                Subjects Taken: English, Malay Language, Mathematics, Additional 
+                                <br />
+                                Mathematics, Physics, Chemistry,Biology, Histroy, Moral Studies, Litereature In English
+                                <br/>
+                                <br/>
+                                Results: 7A+ 2A 1B+
+                            </Typography>
+                        </Box>
+
+
                     </Box>
-
-
-
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2018
-                    </Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading} >
-                            College / Sixt Form / Pre-University
-                        </Typography>
-                        <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            Help Academy
-                        </Typography>
-                        <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
-                            A-Levels
-                            <br/>
-                            <br/>
-                            Subjects Taken: Mathematics, Further Mathematics, Physics, Chemistry
-                            <br/>
-                            <br/>
-                            Results: 4A
-                        </Typography>
-
-                    </Box>
-
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                        2013
-                    </Typography>
-                    <Box component="div" className={classes.timeLineItem}>
-                        <Typography variant="h5" align="center" className={classes.subHeading} >
-                            HighSchool
-                        </Typography>
-                        <Typography variant="body1" align="center" style={{ color: "tomato" }}>
-                            Methodist Boys' Secondary School Kuala Lumpur
-                        </Typography>
-                        <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
-                            School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM))
-                            <br/>
-                            <br/>
-                            Subjects Taken: English, Malay Language, Mathematics, Additional 
-                            <br />
-                            Mathematics, Physics, Chemistry,Biology, Histroy, Moral Studies, Litereature In English
-                            <br/>
-                            <br/>
-                            Results: 7A+ 2A 1B+
-                        </Typography>
-                    </Box>
-
-
                 </Box>
-            </Box>
-
-            <Box component="header" className={classes.mainContainer}>
+                </div>
+                <div className={classes.bottomPane}>
+                <Box component="header" className={classes.mainContainer}>
                 <Typography variant="h4" align="center" className={classes.heading}>
                     Experience
                 </Typography>
@@ -279,6 +293,13 @@ const Resume = () => {
 
                 </Box>
             </Box>
+
+                </div>
+            </div>
+                
+
+          
+           
         </>
     );
 }

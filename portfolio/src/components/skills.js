@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import {Grid, Cell,Button} from 'react-mdl';
+import {Grid, Cell , Button} from 'react-mdl';
 import Navbar from './Navbar';
 
 class Skills extends Component{
@@ -31,9 +31,9 @@ class Skills extends Component{
                 <p>To obtain a full time software development position after graduation</p>
                 <h5>email</h5>
                 <p>pradneshsanderan@gmail.com</p>
-                <a href={ResumeD} class="btn-rounded-white" rel="noopener noreferer" target="_blank">
+                
                 <Button variant="outline-dark">View Resume</Button>
-                </a>
+                
                 <hr style={{borderTop:'3px solid #833fb2',width: '50%'}}/>
                 </Cell>
                 <Cell className="resume-right-col" col={8}>
