@@ -15,12 +15,15 @@ const useStyles = makeStyles(theme => ({
         width: 250,
         background: "#511",
         height: "100%",
+        overflow: "hidden"
+        
     },
     avatar: {
         display: "block",
         margin: "0.5rem auto",
         width: theme.spacing(13),
         height: theme.spacing(13),
+        
 
     },
     listItem: {

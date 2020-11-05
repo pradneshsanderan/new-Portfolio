@@ -9,7 +9,8 @@ import { makeStyles } from '@material-ui/styles';
 const useStyles = makeStyles({
     particlesCanvas: {
         position: "absolute",
-        opacity:"0.3"
+        opacity:"0.3",
+        overflow: "hidden"
     }
 });
 

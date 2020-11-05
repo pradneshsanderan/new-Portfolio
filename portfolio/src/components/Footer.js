@@ -12,6 +12,7 @@ const useStyles = makeStyles({
         "& .MuiBottomNavigationAction-root": {
             minWidth: 0,
             maxWidth: 250,
+            overflow: "hidden"
         },
         "& .MuiSvgIcon-root": {
             fill: "tan",
