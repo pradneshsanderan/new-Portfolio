@@ -9,4 +9,10 @@ body {
 .resume-right-col{
   background:#233;
   color: white;
+  padding: 2em;
+}
+
+.resume-left-col{
+  background:whitesmoke;
+  
 }
