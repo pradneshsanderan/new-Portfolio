@@ -75,6 +75,22 @@ class Skills extends Component{
                         Mathematics, Moral Studies, Histroy, Malay Language, English, Litereature in English"/>
                         <hr style={{borderTop:'3px solid tomato'}}/>
 
+                        <h1 style={{fontSize:"40px", color:"tomato",textTransform: "uppercase"}}>
+                            Skills
+                        </h1>
+                        <h2>
+                            languages
+                        </h2>
+                        <h2>
+                            Frameworks
+                        </h2>
+                        <h2>
+                            Others
+                        </h2>
+                        <h2>
+                            Spoken Languages
+                        </h2>
+
                     </div>
                 </div>
                 
