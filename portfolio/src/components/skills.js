@@ -34,7 +34,11 @@ class Skills extends Component{
                     <p style={{fontSize:'15px'}}>To obtain a full time software development position after graduation</p>
                     <h5 style={{fontSize:'18px'}}>Email</h5>
                     <p style={{fontSize:'15px'}}>pradneshsanderan@gmail.com</p>
+                    <div style={{display:'flex',flexDirection:'row'}}>
+                        <Button />
+                        <Button />
                     </div>
+                </div>
                 
                 <hr style={{borderTop:'3px solid #833fb2',width: '95%'}}/>
                 </div>
@@ -90,6 +94,11 @@ class Skills extends Component{
                         <h2>
                             Spoken Languages
                         </h2>
+                        <hr style={{borderTop:'3px solid tomato'}}/>
+
+                        <h1 style={{fontSize:"40px", color:"tomato",textTransform: "uppercase"}}>
+                            Achievements
+                        </h1>
 
                     </div>
                 </div>
