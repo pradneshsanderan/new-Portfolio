@@ -35,8 +35,12 @@ class Skills extends Component{
                     <h5 style={{fontSize:'18px'}}>Email</h5>
                     <p style={{fontSize:'15px'}}>pradneshsanderan@gmail.com</p>
                     <div style={{display:'flex',flexDirection:'row'}}>
+                        <a >
                         <Button />
+                        </a>
+                        <a>
                         <Button />
+                        </a>
                     </div>
                 </div>
                 
