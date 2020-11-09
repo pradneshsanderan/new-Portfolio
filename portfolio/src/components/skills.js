@@ -3,14 +3,15 @@ import {Grid, Cell,Button} from 'react-mdl';
 import Navbar from './Navbar';
 import { Typography, Box } from '@material-ui/core';
 import Education from './education';
-
+import 'react-mdl/extra/material.css';   
+import 'react-mdl/extra/material.js';
 class Skills extends Component{
     render(){
         return(
             <div>
                 <Navbar />
                 <div style={{display:'flex',flexDirection:'row'}}>
-                    <div style={{width:'50%'}} className="resume-left-col">
+                    <div style={{width:'40%'}} className="resume-left-col">
 
                     <div style={{textAlign:'center'}}>
                     <img
@@ -47,7 +48,7 @@ class Skills extends Component{
                 <hr style={{borderTop:'3px solid #833fb2',width: '95%'}}/>
                 </div>
                     </div>
-                    <div style={{width:'50%'}} className="resume-right-col">
+                    <div style={{width:'60%'}} className="resume-right-col">
                         <h1 style={{fontSize:"40px", color:"tomato",textTransform: "uppercase"}}>
                             Education
                         </h1>
