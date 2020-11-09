@@ -86,15 +86,28 @@ class Skills extends Component{
                         <h1 style={{fontSize:"40px", color:"tomato",textTransform: "uppercase"}}>
                             Skills
                         </h1>
-                        <h2>
-                            languages
-                        </h2>
-                        <h2>
-                            Frameworks
-                        </h2>
-                        <h2>
+                        <div style={{display:'flex',flexDirection:'row'}}>
+                            <div style={{width:'30%'}} >
+                            <h2>
+                                languages
+                            </h2>
+                            </div>
+
+                            <div style={{width:'30%'}} >
+                            <h2>
+                                Frameworks
+                            </h2>
+                            </div>
+                            <h2>
                             Others
-                        </h2>
+                            </h2>
+                            <div style={{width:'30%'}} >
+
+                        </div>
+                        </div>
+                        
+                        
+                        
                         <h2>
                             Spoken Languages
                         </h2>
