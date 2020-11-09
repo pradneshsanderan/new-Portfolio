@@ -21,7 +21,7 @@ class Skills extends Component{
                     />
                     <div style={{textAlign:'left', paddingLeft:'3em'}} >
                     <h2 style={{paddingTop:'2em',fontSize:'25px'}}> Pradnesh Sanderan</h2>
-                    <h4 style={{color:'grey',fontSize:'18px'}}>Programmer</h4>
+                    <h4 style={{color:'grey',fontSize:'18px'}}>Computer Science Undergraduate</h4>
                     <hr style={{borderTop:'3px solid #833fb2',width: '95%'}}/>
                     <p  style={{fontSize:"15px"}}>Self-assured computer science student and team leader, currently studying in the University of Edinburgh ,with diverse experience utilizing programming languages 
                         for assignments and projects. Highly trained in various technology environments with fluid understanding of object 
@@ -87,29 +87,33 @@ class Skills extends Component{
                         <h1 style={{fontSize:"40px", color:"tomato",textTransform: "uppercase"}}>
                             Skills
                         </h1>
+                        <h1 style={{fontSize:"30px", color:"tan",textTransform: "uppercase"}}>
+                             Tecnical Skills
+                        </h1>
                         <div style={{display:'flex',flexDirection:'row'}}>
-                            <div style={{width:'30%'}} >
-                            <h2>
+                            <div style={{width:'33%'}} >
+                            <h2 style={{fontSize:'25px'}}>
                                 languages
                             </h2>
+
                             </div>
 
-                            <div style={{width:'30%'}} >
-                            <h2>
+                            <div style={{width:'33%'}} >
+                            <h2 style={{fontSize:'25px'}}>
                                 Frameworks
                             </h2>
                             </div>
-                            <h2>
-                            Others
+                            
+                            <div style={{width:'33%'}} >
+                            <h2 style={{fontSize:'25px'}}>
+                                Others
                             </h2>
-                            <div style={{width:'30%'}} >
-
-                        </div>
+                            </div>
                         </div>
                         
                         
                         
-                        <h2>
+                        <h2 style={{fontSize:'25px'}}>
                             Spoken Languages
                         </h2>
                         <hr style={{borderTop:'3px solid tomato'}}/>

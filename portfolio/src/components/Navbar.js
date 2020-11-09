@@ -41,23 +41,24 @@ const menuItems = [
     },
     {
         listIcon: <AssignmentInd />,
-        listText: "Education",
-        listPath: "/education"
+        listText: "About Me",
+        listPath: "/aboutme"
+    },
+    {
+        listIcon: <AssignmentInd />,
+        listText: "Experience",
+        listPath: "/experience"
     },
     {
         listIcon: <Apps />,
         listText: "Projects",
         listPath: "/projects"
     },
-    {
-        listIcon: <AssignmentInd />,
-        listText: "Skills",
-        listPath: "/skills"
-    },
+    
     {
         listIcon: <ContactMail />,
         listText: "Contact",
-        listPath: "/contacts"
+        listPath: "/contact"
     },
   
 ]
