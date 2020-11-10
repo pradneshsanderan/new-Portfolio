@@ -91,37 +91,35 @@ class Skills extends Component {
                             Tecnical Skills
                         </h1>
                         <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'left' }}>
-                            <div style={{ width: '33%' }} >
-                                <h2 style={{ fontSize: '25px', textAlign: 'center' }}>
-                                    languages
-                            </h2>
-                                <ul style={{ fontSize: '20px', color: 'tan', textAlign: 'center' }}>Java</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan', textAlign: 'left' }}>Python</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan' , textAlign: 'left'}}>Haskell</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan', textAlign: 'left' }}>Javascript</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan', textAlign: 'left' }}>HTML&CSS</ul>
+                            <div style={{ width: '33.333%' }} >
+                                <h2 style={{ fontSize: '25px', textAlign: 'left' }}>languages</h2>
+                                <h4 style={{ fontSize: '20px', color: 'tan', textAlign: 'left' }}>Java</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan', textAlign: 'left' }}>Python</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan' , textAlign: 'left'}}>Haskell</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan', textAlign: 'left' }}>Javascript</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan', textAlign: 'left' }}>HTML&CSS</h4>
 
                             </div>
 
-                            <div style={{ width: '33%' }} >
+                            <div style={{ width: '33.333%' }} >
                                 <h2 style={{ fontSize: '25px' }}>
                                     Frameworks
-                            </h2>
-                                <ul style={{ fontSize: '20px', color: 'tan' }}>React</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan' }}>React Native</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan' }}>Android Studio</ul>
+                                </h2>
+                                <h4 style={{ fontSize: '20px', color: 'tan' }}>React</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan' }}>React Native</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan' }}>Android Studio</h4>
 
                             </div>
 
-                            <div style={{ width: '33%' }} >
+                            <div style={{ width: '33.333%' }} >
                                 <h2 style={{ fontSize: '25px' }}>
                                     Others
                             </h2>
-                                <ul style={{ fontSize: '20px', color: 'tan' }}>Git</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan' }}>Firebase</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan' }}>Microsoft Office Suite</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan' }}>Adobe Suite</ul>
-                                <ul style={{ fontSize: '20px', color: 'tan' }}>Lego Mindstorms Robotics</ul>
+                                <h4 style={{ fontSize: '20px', color: 'tan' }}>Git</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan' }}>Firebase</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan' }}>Microsoft Office Suite</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan' }}>Adobe Suite</h4>
+                                <h4 style={{ fontSize: '20px', color: 'tan' }}>Lego Mindstorms Robotics</h4>
                             </div>
                         </div>
 
@@ -130,9 +128,9 @@ class Skills extends Component {
                         <h2 style={{ fontSize: "30px", color: "tan", textTransform: "uppercase" }}>
                             Spoken Languages
                         </h2>
-                        <ul style={{ fontSize: '15px' }}>English</ul>
-                        <ul style={{ fontSize: '15px' }}>Malay Language</ul>
-                        <ul style={{ fontSize: '15px' }}>Tamil</ul>
+                        <h4 style={{ fontSize: '20px' }}>English</h4>
+                        <h4 style={{ fontSize: '20px' }}>Malay Language</h4>
+                        <h4 style={{ fontSize: '20px' }}>Tamil</h4>
                         <hr style={{ borderTop: '3px solid tomato' }} />
                         <h1 style={{ fontSize: "40px", color: "tomato", textTransform: "uppercase" }}>
                             Achievements
