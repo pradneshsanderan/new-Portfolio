@@ -5,6 +5,7 @@ import { Typography, Box } from '@material-ui/core';
 import Education from './education';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
+import Resume from "./cv.pdf";
 class Skills extends Component {
     render() {
         return (
@@ -36,12 +37,16 @@ class Skills extends Component {
                                 <h5 style={{ fontSize: '18px' }}>Email</h5>
                                 <p style={{ fontSize: '15px' }}>pradneshsanderan@gmail.com</p>
                                 <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                    <a >
-                                        <Button />
+                                    <a href={Resume}  class="btn-rounded-white" rel="noopener noreferer" target="_blank">
+                                        <Button raised accent ripple>CV</Button>
                                     </a>
-                                    <a>
-                                        <Button />
+                                    
+                                    &nbsp;&nbsp;&nbsp;
+                                    <a href='https://pradneshsanderan.github.io/cv/' class="btn-rounded-white" rel="noopener noreferer" target="_blank">
+                                        <Button raised  ripple colored>Online CV</Button>
                                     </a>
+                                   
+                        
                                 </div>
                             </div>
 
@@ -58,15 +63,15 @@ class Skills extends Component {
                             exam="BSc Computer Science"
                             schoolName="The University of Edinburgh"
                             schoolDescription="Courses Taken:
-                         Introduction to Computation, 
-                         Object Oriented Programming, 
-                         Introduction to Algorithms and Data structures, 
-                         Foundations of Data Science, 
-                         Introduction to Computer Systems, 
-                         Reasoning and agents, Computational Logic, 
-                         Discrete Mathematics and Probability, 
-                         Calculus, 
-                         Linear algebra"/>
+                          Introduction to Computation, 
+                          Object Oriented Programming, 
+                          Introduction to Algorithms and Data structures, 
+                          Foundations of Data Science, 
+                          Introduction to Computer Systems, 
+                          Reasoning and agents, Computational Logic, 
+                          Discrete Mathematics and Probability, 
+                          Calculus, 
+                          Linear algebra"/>
                         <Education
                             startYear={2019}
                             endYear={2018}
@@ -87,7 +92,7 @@ class Skills extends Component {
                         <h1 style={{ fontSize: "40px", color: "tomato", textTransform: "uppercase" }}>
                             Skills
                         </h1>
-                        <h1 style={{ fontSize: "30px", color: "tan", textTransform: "uppercase" }}>
+                        <h1 style={{ fontSize: "30px",  textTransform: "uppercase" }}>
                             Tecnical Skills
                         </h1>
                         <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'left' }}>
@@ -125,12 +130,12 @@ class Skills extends Component {
 
 
 
-                        <h2 style={{ fontSize: "30px", color: "tan", textTransform: "uppercase" }}>
+                        <h2 style={{ fontSize: "30px", textTransform: "uppercase" }}>
                             Spoken Languages
                         </h2>
-                        <h4 style={{ fontSize: '20px' }}>English</h4>
-                        <h4 style={{ fontSize: '20px' }}>Malay Language</h4>
-                        <h4 style={{ fontSize: '20px' }}>Tamil</h4>
+                        <h4 style={{ fontSize: '20px', color: 'tan' }}>English</h4>
+                        <h4 style={{ fontSize: '20px', color: 'tan' }}>Malay Language</h4>
+                        <h4 style={{ fontSize: '20px', color: 'tan' }}>Tamil</h4>
                         <hr style={{ borderTop: '3px solid tomato' }} />
                         <h1 style={{ fontSize: "40px", color: "tomato", textTransform: "uppercase" }}>
                             Achievements
