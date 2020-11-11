@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/pradnesh/static/css/main.7a315a80.chunk.css",
+    "main.js": "/pradnesh/static/js/main.45c32c38.chunk.js",
+    "main.js.map": "/pradnesh/static/js/main.45c32c38.chunk.js.map",
+    "runtime-main.js": "/pradnesh/static/js/runtime-main.afde9e59.js",
+    "runtime-main.js.map": "/pradnesh/static/js/runtime-main.afde9e59.js.map",
+    "static/css/2.f76e3c0a.chunk.css": "/pradnesh/static/css/2.f76e3c0a.chunk.css",
+    "static/js/2.c52d68b2.chunk.js": "/pradnesh/static/js/2.c52d68b2.chunk.js",
+    "static/js/2.c52d68b2.chunk.js.map": "/pradnesh/static/js/2.c52d68b2.chunk.js.map",
+    "index.html": "/pradnesh/index.html",
+    "precache-manifest.90b8259d926c1ff64a6dac531b329bfa.js": "/pradnesh/precache-manifest.90b8259d926c1ff64a6dac531b329bfa.js",
+    "service-worker.js": "/pradnesh/service-worker.js",
+    "static/css/2.f76e3c0a.chunk.css.map": "/pradnesh/static/css/2.f76e3c0a.chunk.css.map",
+    "static/css/main.7a315a80.chunk.css.map": "/pradnesh/static/css/main.7a315a80.chunk.css.map",
+    "static/js/2.c52d68b2.chunk.js.LICENSE.txt": "/pradnesh/static/js/2.c52d68b2.chunk.js.LICENSE.txt",
+    "static/media/cartoon1.png": "/pradnesh/static/media/cartoon1.72702e3a.png",
+    "static/media/cv.pdf": "/pradnesh/static/media/cv.00e5e42b.pdf",
+    "static/media/js.jpg": "/pradnesh/static/media/js.54fd4234.jpg",
+    "static/media/App.css": "/pradnesh/static/media/lp.0602a72d.jpg",
+    "static/media/rc.jpg": "/pradnesh/static/media/rc.a8b012a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afde9e59.js",
+    "static/css/2.f76e3c0a.chunk.css",
+    "static/js/2.c52d68b2.chunk.js",
+    "static/css/main.7a315a80.chunk.css",
+    "static/js/main.45c32c38.chunk.js"
+  ]
+}
