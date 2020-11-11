@@ -10,18 +10,21 @@ const useStyles = makeStyles({
     particlesCanvas: {
         position: "absolute",
         opacity:"0.3",
-        overflow: "hidden"
+        overflow: "hidden",
+        
+        
     }
 });
 
 const Home = () => {
     const classes = useStyles();
     return (
-        <div>
+        <div style={{overflow:"hidden"}}>
             <Navbar />
             <Header />
             <Particles
                 canvasClassName={classes.particlesCanvas}
+                
                 params={{
                     particles: {
                         number: {

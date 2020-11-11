@@ -7,8 +7,8 @@ import { makeStyles } from '@material-ui/core/styles';
 //CSS Styles
 const useStyles = makeStyles(theme => ({
     avatar: {
-        width: theme.spacing(15),
-        height: theme.spacing(15),
+        width: theme.spacing(19),
+        height: theme.spacing(19),
         margin: theme.spacing(1),
     },
     title: {

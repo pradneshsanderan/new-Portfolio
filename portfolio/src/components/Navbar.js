@@ -4,6 +4,7 @@ import { AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import MenuIcon from '@material-ui/icons/Menu';
 import avatar from '../assets/cartoon1.png';
 import { makeStyles } from '@material-ui/core/styles';
+import PersonIcon from '@material-ui/icons/Person';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import MobilRightMenuSlider from '@material-ui/core/Drawer';
@@ -40,7 +41,7 @@ const menuItems = [
         listPath: "/"
     },
     {
-        listIcon: <AssignmentInd />,
+        listIcon: <PersonIcon />,
         listText: "About Me",
         listPath: "/aboutme"
     },

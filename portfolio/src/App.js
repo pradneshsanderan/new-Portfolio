@@ -21,10 +21,11 @@ function App() {
         <title>
           Pradnesh Sanderan
         </title>
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
       </Helmet>
       <CssBaseline />
       <Route exact path="/" component={Home}/>
-      <Route path="/education" component={Resume}/>
+      <Route path="/experience" component={Resume}/>
       <Route path="/projects" component={Portfolio} />
       <Route path="/contact" component={Contacts} />
       <Route path="/aboutme" component={Skills} />

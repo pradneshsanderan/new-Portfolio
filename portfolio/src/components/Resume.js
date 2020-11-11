@@ -126,12 +126,17 @@ const Resume = () => {
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" align="center" className={classes.subHeading} >
                             The University of Edinburgh
+                           
                         </Typography>
+                        <br />
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                            Tutor
+                           
                         </Typography>
+                        <br />
                         <Typography variant="subtitle" align="center" style={{ color: "tan" }}>
-                            BSc Computer Science
+                        Led weekly tutorial groups consisting of first year and second year students for the computational logic part, 
+                        for the course, Informatics1-Introduction to Computation, through tutorial sheets provided by the lecturers
                         </Typography>
                     </Box>
 
@@ -144,17 +149,14 @@ const Resume = () => {
                         <Typography variant="h5" align="center" className={classes.subHeading} >
                            Rumah Hope CHildrens Home
                         </Typography>
+                        <br />
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                            Volunteer Teacher
                         </Typography>
+                        <br />
                         <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
-                            A-Levels
-                            <br/>
-                            <br/>
-                            Subjects Taken: Mathematics, Further Mathematics, Physics, Chemistry
-                            <br/>
-                            <br/>
-                            Results: 4A
+                        Organized and led weekly 2 hour session with primary school children that 
+                        focused on teaching them English and Science through various fun activities and exercises
                         </Typography>
 
                     </Box>
@@ -166,19 +168,13 @@ const Resume = () => {
                         <Typography variant="h5" align="center" className={classes.subHeading} >
                             SPCA Kajang
                         </Typography>
+                        <br />
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                             Volunteer
                         </Typography>
+                        <br />
                         <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
-                            School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM))
-                            <br/>
-                            <br/>
-                            Subjects Taken: English, Malay Language, Mathematics, Additional 
-                            <br />
-                            Mathematics, Physics, Chemistry,Biology, Histroy, Moral Studies, Litereature In English
-                            <br/>
-                            <br/>
-                            Results: 7A+ 2A 1B+
+                          Volunteered at an animal shelter where I was in charge of cleaning the kennels of the dogs, bathing the dogs and feeding them
                         </Typography>
                     </Box>
 
@@ -189,19 +185,13 @@ const Resume = () => {
                         <Typography variant="h5" align="center" className={classes.subHeading} >
                             Soup Kitchen
                         </Typography>
+                        <br />
                         <Typography variant="body1" align="center" style={{ color: "tomato" }}>
                            Co-Founder and Volunteer
                         </Typography>
+                        <br />
                         <Typography variant="subtitle" align="left" style={{ color: "tan", display: 'inline-block' }}>
-                            School Leaving Certificate  (Sijil Peperisaan Malaysia (SPM))
-                            <br/>
-                            <br/>
-                            Subjects Taken: English, Malay Language, Mathematics, Additional 
-                            <br />
-                            Mathematics, Physics, Chemistry,Biology, Histroy, Moral Studies, Litereature In English
-                            <br/>
-                            <br/>
-                            Results: 7A+ 2A 1B+
+                        Co-founded a soup kitchen that distributes packed meals to the homeless around the Kuala Lumpur City Center every month
                         </Typography>
                     </Box>
 

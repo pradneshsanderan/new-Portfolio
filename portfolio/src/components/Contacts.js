@@ -6,9 +6,7 @@ import Navbar from './Navbar';
 import { Translate } from '@material-ui/icons';
 /* code for the contacts component */
 
-const [name,setName] = useState('');
-const [email,setEmail] = useState('');
-const[message,setMessage]=useState('');
+
 
 //CSS for the header and submit button
 const useStyles = makeStyles(theme =>({

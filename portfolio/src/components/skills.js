@@ -25,15 +25,15 @@ class Skills extends Component {
                                 <h4 style={{ color: 'grey', fontSize: '18px' }}>Computer Science Undergraduate</h4>
                                 <hr style={{ borderTop: '3px solid #833fb2', width: '95%' }} />
                                 <p style={{ fontSize: "15px" }}>Self-assured computer science student and team leader, currently studying in the University of Edinburgh ,with diverse experience utilizing programming languages
-                                for assignments and projects. Highly trained in various technology environments with fluid understanding of object
-                        oriented programming languages and functional programming languages.</p>
+                                for assignments and projects. Highly trained in various technology environments with fluid understanding of 
+                                programming languages and frameworks.</p>
                                 <hr style={{ borderTop: '3px solid #833fb2', width: '95%' }} />
                                 <h5 style={{ fontSize: '18px' }}>Country of Residence</h5>
                                 <p style={{ fontSize: '15px' }}>Malaysia / United Kingdom</p>
                                 <h5 style={{ fontSize: '18px' }}>Degree</h5>
                                 <p style={{ fontSize: '15px' }}>BSc Computer Science</p>
                                 <h5 style={{ fontSize: '18px' }}>Objective</h5>
-                                <p style={{ fontSize: '15px' }}>To obtain a full time software development position after graduation</p>
+                                <p style={{ fontSize: '15px' }}>To obtain a full time software engineer position after graduation</p>
                                 <h5 style={{ fontSize: '18px' }}>Email</h5>
                                 <p style={{ fontSize: '15px' }}>pradneshsanderan@gmail.com</p>
                                 <div style={{ display: 'flex', flexDirection: 'row' }}>
