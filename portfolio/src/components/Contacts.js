@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {makeStyles, withStyles} from '@material-ui/core/styles';
 import { TextField, Typography, Button, Grid, Box } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
@@ -6,8 +6,9 @@ import Navbar from './Navbar';
 import { Translate } from '@material-ui/icons';
 /* code for the contacts component */
 
-
-
+const [name,setName] = useState('');
+const [email,setEmail] = useState('');
+const[message,setMessage]=useState('');
 
 //CSS for the header and submit button
 const useStyles = makeStyles(theme =>({
